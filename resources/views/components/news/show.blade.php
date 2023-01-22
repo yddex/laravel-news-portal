@@ -1,3 +1,10 @@
-<x-layouts.base>
-    <h1>#ID {{$id}}</h1>
-</x-layouts.base>
+<article class="blog-post mt-5">
+    <h2 class="blog-post-title mb-1">
+        {{$news['title']}}
+    </h2>
+    <blockquote>
+        {{$news['id']}}
+    </blockquote>
+    <p>{{$news['body']}}</p>
+   
+  </article>
