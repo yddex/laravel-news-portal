@@ -13,6 +13,7 @@ class NewsController extends Controller
         $news = [
             [
                 'id' => 1,
+                'author' => 'asdas',
                 'title' => 'title a',
                 'description' => 'description',
                 'created_at' => date('d-m-Y'),
@@ -20,6 +21,7 @@ class NewsController extends Controller
             ],
             [
                 'id' => 2,
+                'author' => 'asdas',
                 'title' => 'title a',
                 'description' => 'description',
                 'created_at' => date('d-m-Y'),
@@ -27,6 +29,7 @@ class NewsController extends Controller
             ],
             [
                 'id' => 3,
+                'author' => 'asdas',
                 'title' => 'title a',
                 'description' => 'description',
                 'created_at' => date('d-m-Y'),
@@ -34,6 +37,7 @@ class NewsController extends Controller
             ],
             [
                 'id' => 4,
+                'author' => 'asdas',
                 'title' => 'title a',
                 'description' => 'description',
                 'created_at' => date('d-m-Y'),
@@ -47,6 +51,7 @@ class NewsController extends Controller
     {
         $news = [
             'id' => $id,
+            'author' => 'asdas',
             'title' => 'title a',
             'description' => 'description',
             'created_at' => date('d-m-Y'),

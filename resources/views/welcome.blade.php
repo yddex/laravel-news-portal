@@ -1,16 +1,12 @@
-<x-base>
-  <article class="about-us mt-5">
-    <div class="p-5 mb-4 bg-light rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Добро пожаловать на 
-            {{config('app')['name']}}
-        </h1>
-          <p class="col-md-8 fs-4">
-                Если вы искали новостной ресурс, то вы его нашли! <br>
-                Мы собираем самые свежие и горячие новости, распределяем по категориям
-                и удолетворяем потребности наших читателей!
-           </p>
+@extends('layouts.main')
+@section('title', 'title')
+@section('content')
+    <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+        <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">Добро пожаловать на {{config('app.name')}}</h1>
+            <p class="lead my-3">Здесь для вас собраны все самые горячие новости.</p>
+            <p class="lead mb-0"><a href="{{route('news.index')}}" class="text-black fw-bold">И так к новостям...</a></p>
         </div>
-      </div>
-</article>
-</x-base>
+    </div>
+
+@endsection

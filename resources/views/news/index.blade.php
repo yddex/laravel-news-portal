@@ -1,11 +1,10 @@
-<x-base title='Новости'>
-    <h1 class="mt-5 text-center">Свежие новости</h1>
-    <div class="row mb-2 mt-5">
-        @forelse ( $news as $newsone )
-            <x-news.card :news="$newsone"/>       
-        @empty
-            <h1> Новостей нет</h1>
-        @endforelse
+@extends('layouts.main')
+@section('content')
+    <div class="row mb-2">
+@forelse($news as $n)
+    <x-news.card :news="$n"/>
+@empty
+    <h2>Новостей нет</h2>
+@endforelse
     </div>
-            
-</x-base>
+@endsection
