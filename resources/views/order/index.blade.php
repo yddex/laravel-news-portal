@@ -16,7 +16,7 @@
         <x-forms.controls.input label="Ваше имя" id="name"  name="name" type="text" />
         <x-forms.controls.input label="Ваш телефон" id="phone"  name="phone" type="text" />
         <x-forms.controls.input label="Ваш email" id="email"  name="email" type="email" />
-        <x-forms.controls.textarea label="Какие данные вам нужны" id="order" name="order"/>
+        <x-forms.controls.textarea label="Какие данные вам нужны" id="body" name="body"/>
 
         <br>
         <button type="submit" class="btn btn-success">Отправить</button>

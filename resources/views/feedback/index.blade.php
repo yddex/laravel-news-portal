@@ -10,7 +10,7 @@
         @csrf
         @method('POST')
         <x-forms.controls.input label="Ваше имя" id="name"  name="name" type="name" />
-        <x-forms.controls.textarea label="Отзыв" id="feedback" name="feedback"/>
+        <x-forms.controls.textarea label="Отзыв" id="body" name="body"/>
 
         <br>
         <button type="submit" class="btn btn-success">Отправить</button>
