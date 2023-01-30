@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.app')
 @section('title', 'title')
 @section('content')
     <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">

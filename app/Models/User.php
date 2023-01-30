@@ -15,6 +15,7 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable, SoftDeletes;
 
+
     /**
      * @return HasMany
      */
@@ -50,5 +51,6 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'role' => UserRoles::class
     ];
 }

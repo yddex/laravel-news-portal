@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.app')
 @section('title', 'order')
 @section('content')
     <h1>Выгрузка данных</h1>

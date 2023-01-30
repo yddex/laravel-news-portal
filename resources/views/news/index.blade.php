@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.app')
 @section('content')
     <div class="row mb-2">
 @forelse($news as $n)

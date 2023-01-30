@@ -25,7 +25,6 @@ class NewsRequest extends FormRequest
      */
     public function rules()
     {
-
         return [
             'title' => [
                 'required',
