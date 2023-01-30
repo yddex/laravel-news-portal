@@ -45,7 +45,7 @@ class NewsRequest extends FormRequest
         ];
     }
 
-    protected function uniqueRule()
+    protected function uniqueRule(): \Illuminate\Validation\Rules\Unique
     {
         $news_id = Route::current()->parameter('news');
         if($news_id)
